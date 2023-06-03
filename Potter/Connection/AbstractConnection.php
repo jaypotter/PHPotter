@@ -2,7 +2,7 @@
 
 namespace Potter\Connection;
 
-abstract class AbstractConnection
+abstract class AbstractConnection implements ConnectionInterface
 {
     
     abstract public function connect(): void;
