@@ -1,0 +1,22 @@
+{
+    "name": "potter/phpotter",
+    "type": "library",
+    "require": {
+        "php": "^8.2@RC"
+    },
+    "require-dev": {
+        "php": "^8.2@RC"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\": "Potter/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter"
+        }
+    ],
+    "minimum-stability": "dev"
+}
